@@ -998,12 +998,13 @@ packages:
     source: hosted
     version: "0.0.12+1"
   walletconnect_flutter_v2:
-    dependency: "direct main"
+    dependency: transitive
     description:
-      name: walletconnect_flutter_v2
-      sha256: "7429c8edfcf830e931ecd9112656a52c5f9c83cb0fcc00a1afb4f10d2be1b6e7"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: master
+      resolved-ref: "65ca8625b07cb3b7bb2c1289845fcaf357b5b159"
+      url: "https://github.com/SevenBitsRashmi/WalletConnectFlutterV2.git"
+    source: git
     version: "2.1.4"
   walletconnect_modal_flutter:
     dependency: "direct main"
@@ -1011,7 +1012,7 @@ packages:
       path: "../.."
       relative: true
     source: path
-    version: "2.1.4"
+    version: "2.1.11"
   watcher:
     dependency: transitive
     description:

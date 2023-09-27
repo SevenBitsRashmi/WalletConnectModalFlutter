@@ -12,7 +12,11 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  walletconnect_flutter_v2: ^2.1.2
+  #walletconnect_flutter_v2: ^2.1.2
+  walletconnect_flutter_v2:
+    git:
+      url: https://github.com/SevenBitsRashmi/WalletConnectFlutterV2.git
+      ref: master
   flutter_svg: ^2.0.6
   qr_flutter: ^4.1.0
   json_annotation: ^4.8.1
